@@ -1,0 +1,125 @@
+h1 {
+
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+
+}
+
+h2 {
+
+  font-family:  'Vollkorn', serif;
+
+
+}
+
+h3 {
+
+    font-family: 'Vollkorn', serif;
+
+}
+
+
+nav {
+
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 1.25em;
+  position: fixed;
+  top: 0;
+  left: 20px;
+  height: 100vh;
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
+  line-height: 2.4em;
+
+
+
+}
+
+a {
+
+  text-decoration: none;
+  color: #000;
+
+}
+
+a:hover {
+
+    color: #3e62fd;
+    font-size: 1.3em;
+    transition: 0.2s;
+    text-decoration: none;
+
+}
+
+
+
+p {
+
+  font-family: 'Lato';
+}
+
+footer {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.designedby {
+
+
+
+}
+
+.logo {
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px 25px 0px;
+
+}
+
+
+.burger {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.fullburger {
+
+  margin-top: 20px;
+  margin-left: 15px;
+
+}
+
+
+.spin {
+
+  transform:rotate(90deg); -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -o-transform:rotate(90deg);
+
+}
+
+.top {
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+}
+
+button {
+
+  background-color: #fff;
+
+}
