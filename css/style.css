@@ -2,7 +2,9 @@ h1 {
 
   font-family: 'Vollkorn', serif;
   font-weight: 700;
-
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 h2 {
@@ -69,9 +71,15 @@ footer {
 
 }
 
+
+.mainmap {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .designedby {
 
-
+  color: grey;
 
 }
 
@@ -104,7 +112,7 @@ footer {
 }
 
 
-.spin {
+#burger.spin {
 
   transform:rotate(90deg); -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -o-transform:rotate(90deg);
 
@@ -115,11 +123,5 @@ footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-
-}
-
-button {
-
-  background-color: #fff;
 
 }
