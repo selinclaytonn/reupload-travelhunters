@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $('#burger').click(function() {
-        $('#burger').css('spin');
+    $('.burger').click(function() {
+        $('.burger').class('.burgerspin');
     });
 });
 
