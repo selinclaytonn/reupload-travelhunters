@@ -12,6 +12,10 @@ h2, h3, h4 {
 
   font-family:  'Vollkorn', serif;
   text-rendering: optimizeLegibility;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 230px;
 
 
 }
@@ -109,9 +113,11 @@ footer {
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 25%;
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 280px;
+
 }
 
 /* Style the images inside the grid */
@@ -137,14 +143,6 @@ footer {
   display: none;
 }
 
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
 
 /* Closable button inside the image */
 .closebtn {
@@ -184,4 +182,31 @@ footer {
 
   margin-top: 40px;
 
+}
+
+.destinationtext {
+
+  width: 80%;
+  display: flex;
+  margin-left: 230px;
+
+}
+
+.destinationtitle {
+
+  width: 80%;
+  display: flex;
+  margin-left: 230px;
+
+}
+
+#cassis, #gilleleje, #hallstatt, #karlovy, #porto, #positano {
+
+  margin-top: 60px;
+
+}
+
+h4 {
+
+  margin-top: 30px;
 }
